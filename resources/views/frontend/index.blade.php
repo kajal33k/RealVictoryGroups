@@ -36,61 +36,52 @@
                 us now</button>
         </div>
     </section>
-
-    <!-- OUR EXPERIMENTS -->
-    <section class="grid grid-cols-1 lg:grid-cols-2 gap-4 py-16 px-6 lg:px-16 mt-4">
-        <div>
-            <div class="text-center mb-12" data-aos="zoom-in" data-aos-duration="1000">
-                <h1 class="text-3xl font-bold text-gray-900 poppins-medium">Our Experiments!</h1>
-                <p class="text-xl text-gray-700 mt-4 max-w-3xl mx-auto poppins-light">
-                    We believe in simplicity; so we design and build impactful, user-friendly IT products. We majorly stand
-                    on the three pillars—DESIGN, CULTURE & TECHNOLOGY.
-                </p>
-            </div>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 mb-4">
-                <!-- Experiment 1 -->
-                <div class="bg-white p-2 rounded-lg shadow-lg flex flex-col items-center text-center w-full"
-                    data-aos="flip-left" data-aos-duration="1000">
-                    <img src="{{ asset('assets/img/msg91_logo.svg') }}" alt="MSG91" class="w-24 h-24 object-contain">
-                    <p class="text-gray-700 text-sm poppins-medium">Cloud communication platform delivering 1 SMS every
-                        month.</p>
-                    <p class="text-gray-600 text-sm poppins-mono">PHP, MySQL, MongoDB, AWS and Python.</p>
-                    <button
-                        class="mt-4 border border-red-500 text-red-800 px-4 py-2 rounded-lg text-sm poppins-thin hover:bg-red-500 hover:text-white transition-colors duration-300">
-                        Know more
-                    </button>
-                </div>
-
-                <!-- Experiment 2 -->
-                <div class="bg-white p-2 rounded-lg shadow-lg flex flex-col items-center text-center w-full"
-                    data-aos="flip-up" data-aos-duration="1000">
-                    <img src="{{ asset('assets/img/socket_logo.svg') }}" alt="Socket" class="w-24 h-24 object-contain">
-                    <p class="text-gray-700 text-sm poppins-medium">Third-party integrations made super easy.</p>
-                    <p class="text-gray-600 text-sm poppins-mono">ROR, Angular, ES6, pgSQL, and Node. 5000 API hits
-                        free/month.</p>
-                    <button
-                        class="mt-4 border border-red-500 text-red-800 px-4 py-2 rounded-lg text-sm poppins-thin hover:bg-red-500 hover:text-white transition-colors duration-300">
-                        Know more
-                    </button>
-                </div>
-
-                <!-- Experiment 3 -->
-                <div class="bg-white p-2 rounded-lg shadow-lg flex flex-col items-center text-center" data-aos="flip-right"
-                    data-aos-duration="1000">
-                    <img src="{{ asset('assets/img/space_logo.svg') }}" alt="Space" class="w-24 h-24 object-contain">
-                    <p class="text-gray-700 text-sm poppins-medium">Team collaboration app with best facilities.</p>
-                    <p class="text-gray-600 text-sm poppins-mono">PHP, MySQL, MongoDB, AWS, NGINX, MERN, Angular and Python.
-                    </p>
-                    <button
-                        class="mt-4 poppins-thin border border-red-500 text-red-800 px-4 py-2 rounded-lg text-sm hover:bg-red-500 hover:text-white transition-colors duration-300">
-                        Know more
-                    </button>
-                </div>
-            </div>
+    <!-- Experiments Section -->
+    <section class="py-16 px-6 lg:px-16 mt-4">
+        <div class="text-center mb-12" data-aos="zoom-in" data-aos-duration="1000">
+            <h1 class="text-3xl font-bold text-gray-900">Our Experiments!</h1>
+            <p class="text-xl text-gray-700 mt-4 max-w-3xl mx-auto font-light">
+                We believe in simplicity; so we design and build impactful, user-friendly IT products. We majorly stand on
+                the three pillars—DESIGN, CULTURE & TECHNOLOGY.
+            </p>
         </div>
-        <div data-aos="zoom-out" data-aos-duration="1000">
-            <img src="{{ asset('assets/img/lab.gif') }}" alt="">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Experiment 1 -->
+            <div class="bg-white p-4 rounded-lg shadow-lg flex flex-col items-center text-center" data-aos="flip-left"
+                data-aos-duration="1000">
+                <img src="assets/img/msg91_logo.svg" alt="MSG91" class="w-24 h-24 object-contain">
+                <p class="text-gray-700 text-sm mt-4 font-medium">Cloud communication platform delivering 1 SMS every month.
+                </p>
+                <p class="text-gray-600 text-sm mt-2 font-mono">PHP, MySQL, MongoDB, AWS and Python.</p>
+                <button
+                    class="mt-4 border border-red-500 text-red-800 px-4 py-2 rounded-lg text-sm hover:bg-red-500 hover:text-white transition duration-300 font-thin">
+                    Know more
+                </button>
+            </div>
+            <!-- Experiment 2 -->
+            <div class="bg-white p-4 rounded-lg shadow-lg flex flex-col items-center text-center" data-aos="flip-up"
+                data-aos-duration="1000">
+                <img src="assets/img/socket_logo.svg" alt="Socket" class="w-24 h-24 object-contain">
+                <p class="text-gray-700 text-sm mt-4 font-medium">Third-party integrations made super easy.</p>
+                <p class="text-gray-600 text-sm mt-2 font-mono">ROR, Angular, ES6, pgSQL, and Node. 5000 API hits
+                    free/month.</p>
+                <button
+                    class="mt-4 border border-red-500 text-red-800 px-4 py-2 rounded-lg text-sm hover:bg-red-500 hover:text-white transition duration-300 font-thin">
+                    Know more
+                </button>
+            </div>
+            <!-- Experiment 3 -->
+            <div class="bg-white p-4 rounded-lg shadow-lg flex flex-col items-center text-center" data-aos="flip-right"
+                data-aos-duration="1000">
+                <img src="assets/img/space_logo.svg" alt="Space" class="w-24 h-24 object-contain">
+                <p class="text-gray-700 text-sm mt-4 font-medium">Team collaboration app with best facilities.</p>
+                <p class="text-gray-600 text-sm mt-2 font-mono">PHP, MySQL, MongoDB, AWS, NGINX, MERN, Angular and Python.
+                </p>
+                <button
+                    class="mt-4 border border-red-500 text-red-800 px-4 py-2 rounded-lg text-sm hover:bg-red-500 hover:text-white transition duration-300 font-thin">
+                    Know more
+                </button>
+            </div>
         </div>
     </section>
 
@@ -153,17 +144,29 @@
                 </button>
             </article>
 
+
             <!-- Fourth Section: Video -->
-            <article class="mt-16" data-aos="zoom-in" data-aos-duration="1000">
-                <p class="text-xl poppins-semibold text-gray-900 mb-4">Freedom + Responsibility at Walkover</p>
-                <div class="aspect-w-16 aspect-h-50">
-                    <iframe width="560" height="415"
-                        src="https://www.youtube.com/embed/iAJn9pIyJws?si=fgqoebydeKmyejz4" title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="w-full h-full"></iframe>
-                </div>
-            </article>
+            <div class="py-20 px-6 lg:px-16 bg-gray-50">
+                <article class="text-center space-y-6" data-aos="zoom-in" data-aos-duration="1000">
+                    <!-- Section Heading -->
+                    <h1 class="text-4xl font-serif text-gray-900 mb-4">
+                        Freedom + Responsibility at Walkover
+                    </h1>
+                    <!-- Description (optional) -->
+                    <p class="text-lg text-gray-700 max-w-2xl mx-auto">
+                        At Walkover, we believe in empowering our team to innovate, take responsibility, and grow in an
+                        environment that fosters creativity and freedom.
+                    </p>
+                    <!-- Video Embed -->
+                    <div class="relative w-full max-w-4xl mx-auto" style="padding-top: 56.25%;">
+                        <!-- 16:9 Aspect Ratio -->
+                        <iframe class="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
+                            src="https://www.youtube.com/embed/iAJn9pIyJws" frameborder="0" allowfullscreen>
+                        </iframe>
+                    </div>
+                </article>
+            </div>
+
         </div>
     </section>
 @endsection
