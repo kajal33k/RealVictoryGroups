@@ -16,4 +16,11 @@ class HomeController extends Controller
     {
         return view('frontend.join');
     }
+
+    public function product(){
+        return view('frontend.product');
+    }
+    public function career(){
+        return view('frontend.career');
+    }
 }

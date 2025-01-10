@@ -3,24 +3,24 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <!-- Company Info Section -->
           <div>
-              <h3 class="text-xl font-semibold mb-4">Walkover Web Solutions Pvt Ltd</h3>
+              <h3 class="text-xl font-semibold mb-4">Real Victory Groups </h3>
               <p class="mb-4">
-                  405-406, CAPTAIN C.S.NAYUDU ARCADE, OLD PALASIA ROAD, INDORE, Madhya Pradesh
+                73 Basement, Ekta Enclave Society, Lakhanpur, Khyora,
               </p>
               <a href="#" class="text-blue-400 hover:underline">See on map</a>
           </div>
 
           <!-- Contact Information Section -->
           <div>
-              <h3 class="text-xl font-semibold mb-4">Contact Us</h3>
-              <p>Email: <a href="mailto:info@walkover.in" class="text-blue-400 hover:underline">info@walkover.in</a></p>
-              <p>Phone: <a href="tel:+917312560056" class="text-blue-400 hover:underline">+917312560056</a></p>
-              <p>Timings: Monday to Friday, 10:00 AM - 8:00 PM</p>
+              <h3 class="text-xl font-serif mb-4">Contact Us</h3>
+              <p>Email: <a href="mailto:realvictorygroups.in" class="text-blue-400 hover:underline font-thin">realvictorygroups.in</a></p>
+              <p>Phone: <a href="tel:+917312560056" class="text-blue-400 hover:underline font-thin">+9182990 12292</a></p>
+              <p>Timings: Monday to Saturday, 10:00 AM - 6:30 PM</p>
           </div>
 
           <!-- Social Media Section -->
           <div>
-              <h3 class="text-xl font-semibold mb-4">Follow Us</h3>
+              <h3 class="text-xl font-semibold mb-4 font-serif">Follow Us</h3>
               <div class="flex space-x-4">
                   <a href="#" aria-label="Facebook" class="hover:text-blue-400 transition-colors duration-300">
                       <img src="https://www.svgrepo.com/show/303114/facebook-3-logo.svg" alt="Facebook" class="h-8 w-auto" />
@@ -50,7 +50,7 @@
       <hr class="my-8 border-gray-700" />
 
       <div class="flex flex-col sm:flex-row items-center justify-between">
-          <div class="text-sm text-center sm:text-left mb-6 sm:mb-0">
+          <div class="text-sm text-center sm:text-left mb-6 sm:mb-0 font-light">
               <p>© 2024 Real Victory Groups. | All Rights Reserved</p>
           </div>
       </div>
