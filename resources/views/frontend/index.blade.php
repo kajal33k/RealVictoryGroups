@@ -31,6 +31,10 @@
  </section>
    {{-- mission --}}
    <section class="grid grid-cols-1 lg:grid-cols-2 gap-8 py-16 px-6 lg:px-16 mt-4">
+
+    <div class="flex justify-center items-center">
+        <img src="{{ asset('assets/img/growth1.gif') }}" alt="Innovation" class="w-full h-auto max-w-md">
+      </div>
     <div class="space-y-6">
       <h2 class="text-4xl sm:text-5xl poppins-serif text-gray-900">Building a better Bussiness!</h2>
       <p class="text-xl sm:text-2xl poppins-light text-gray-900">On a mission to help start-ups in their vision of making the world a better place.
@@ -39,9 +43,7 @@
      
       <button class="bg-red-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-black transition-colors duration-300 poppins-thin">Join us now</button>
     </div>
-    <div class="flex justify-center items-center">
-      <img src="{{ asset('assets/img/growth1.gif') }}" alt="Innovation" class="w-full h-auto max-w-md">
-    </div>
+   
  </section>
 
  {{-- OUR EXPERIMENTS --}}
@@ -98,6 +100,9 @@
 
 {{-- SUCESS AND LEARNING --}}
 <section class="grid grid-cols-1 lg:grid-cols-2 gap-8 py-16 px-6 lg:px-16 mt-4">
+    <div class="flex justify-center items-center">
+        <img src="{{ asset('assets/img/simple_culture_image.svg') }}" alt="Innovation" class="w-full h-auto max-w-md">
+      </div>
     <div class="space-y-6">
       <h2 class="text-4xl sm:text-5xl poppins-regular text-gray-900">Be it a Success or a Learning, we simply Walkover :)</h2>
       <p class="text-xl sm:text-2xl poppins-medium text-gray-900">
@@ -106,9 +111,7 @@
      
       <button class="bg-red-600 text-white px-6 py-3 rounded-lg text-lg poppins-thin hover:bg-black transition-colors duration-300">Join us now</button>
     </div>
-    <div class="flex justify-center items-center">
-      <img src="{{ asset('assets/img/simple_culture_image.svg') }}" alt="Innovation" class="w-full h-auto max-w-md">
-    </div>
+  
  </section>
 
  {{-- RIGHT PATH --}}
