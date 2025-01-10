@@ -1,17 +1,6 @@
 @extends('components.main')
 @section('content')
-    {{-- Hero Section --}}
-    {{-- <section class="grid grid-cols-1 lg:grid-cols-2 gap-8 py-16 px-6 lg:px-16 mt-44">
-      <div class="space-y-6">
-        <h2 class="text-xl sm:text-2xl font-semibold text-gray-800">We are a team of Developers, Designers, Innovators...</h2>
-        <h1 class="text-4xl sm:text-5xl font-bold text-gray-900">We are Walkover.</h1>   
-        <h2 class="text-xl sm:text-2xl font-semibold text-gray-700">A journey to innovation!</h2> 
-        <button class="bg-red-600 text-white px-6 py-3 rounded-lg text-lg hover:bg-black transition-colors duration-300">Join us</button>
-      </div>
-      <div class="flex justify-center items-center">
-        <img src="{{ asset('assets/img/innovation.gif') }}" alt="Innovation" class="w-full h-auto max-w-md">
-      </div>
-   </section> --}}
+   
     <section class="grid grid-cols-1 lg:grid-cols-2 gap-8 py-16 px-6 lg:px-16 lg:mt-44 mt-24">
         <div class="space-y-6">
             <h2 class="text-xl sm:text-2xl font-semibold text-gray-800 poppins-medium">We are a team of Developers,
