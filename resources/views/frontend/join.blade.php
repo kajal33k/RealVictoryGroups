@@ -11,7 +11,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Favicon -->
-    <link rel="icon" href="{{ asset('assets/img/favicon.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('assets/img/logo (2).png') }}" type="image/x-icon">
 </head>
 
 <body class="bg-white text-gray-800">
