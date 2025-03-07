@@ -6,7 +6,7 @@
             <h2 class="text-xl sm:text-2xl font-semibold text-gray-800 poppins-medium">
                 We are a team of Developers, Designers, Innovators...
             </h2>
-            <h1 class="text-4xl sm:text-5xl poppins-serif text-gray-900">We are Walkover.</h1>
+            <h1 class="text-4xl sm:text-5xl poppins-serif text-gray-900">We are Developers.</h1>
             <h2 class="text-xl sm:text-2xl poppins-extralight text-gray-700">A journey to innovation!</h2>
             <div class="mt-2">
                 <a href="{{ route('frontend.join') }}">
