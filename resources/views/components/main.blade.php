@@ -24,7 +24,7 @@
     @vite('resources/css/app.css')
 </head>
 
-<body class="flex flex-col min-h-screen bg-[#F3F6E8] text-gray-900">
+<body class="flex flex-col  bg-[#F3F6E8] text-gray-900">
     <style>
         .poppins-thin {
             font-family: "Poppins", sans-serif;
@@ -134,11 +134,15 @@
             font-style: italic;
         }
     </style>
+
+    
     <!-- Include the header component -->
+
     @include('components.header')
 
     <!-- Main content section -->
-    <main class="flex-grow lg:mx-24">
+    <main class="flex-grow ">
+
         @yield('content')
     </main>
 
